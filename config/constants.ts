@@ -60,7 +60,8 @@ export type ValidSkills =
   | "FastAPI"
   | "SQL"
   | "NoSQL"
-  | "Framer Motion";
+  | "Framer Motion"
+  | string;
 
 export type ValidCategory =
   | "Full Stack"
@@ -71,7 +72,7 @@ export type ValidCategory =
   | "Mobile Dev"
   | "3D Modeling";
 
-export type ValidExpType = "Personal" | "Professional";
+export type ValidExpType = "Личный" | "Профессиональный";
 
 export type ValidPages =
   | "home"

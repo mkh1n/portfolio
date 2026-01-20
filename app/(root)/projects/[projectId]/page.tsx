@@ -37,7 +37,7 @@ export default async function Project({ params }: ProjectPageProps) {
         )}
       >
         <Icons.chevronLeft className="mr-2 h-4 w-4" />
-        All Projects
+        Все проекты
       </Link>
       <div>
         <time
@@ -150,7 +150,7 @@ export default async function Project({ params }: ProjectPageProps) {
           className={cn(buttonVariants({ variant: "ghost" }))}
         >
           <Icons.chevronLeft className="mr-2 h-4 w-4" />
-          All Projects
+          Все проекты
         </Link>
       </div>
     </article>

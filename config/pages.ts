@@ -14,62 +14,54 @@ type PagesConfig = {
 
 export const pagesConfig: PagesConfig = {
   home: {
-    title: "Home",
-    description: "Welcome to my portfolio website.",
+    title: "",
+    description: "Мое портфолио.",
     metadata: {
       title: "Home",
-      description: "Naman Barkiya's portfolio website.",
+      description: "Портфолио Романа Мухина.",
     },
   },
   skills: {
-    title: "Skills",
-    description: "Key skills that define my professional identity.",
+    title: "Скиллы",
+    description: "",
     metadata: {
       title: "Skills",
       description:
-        "Naman Barkiya's key skills that define his professional identity.",
+        "Скиллы Мухина Романа",
     },
   },
   projects: {
-    title: "Projects",
-    description: "Showcasing impactful projects and technical achievements.",
+    title: "Проекты",
+    description: "",
     metadata: {
-      title: "Projects",
-      description: "Naman Barkiya's projects in building web applications.",
+      title: "Проекты",
+      description: "Проекты Мухина Романа.",
     },
   },
   contact: {
-    title: "Contact",
-    description: "Let's connect and explore collaborations.",
+    title: "Контакты",
+    description: "Будем на связи.",
     metadata: {
-      title: "Contact",
-      description: "Contact Naman Barkiya.",
+      title: "Контакты",
+      description: "Контакты Романа Мухина.",
     },
   },
-  contributions: {
-    title: "Contributions",
-    description: "Open-source contributions and community involvement.",
-    metadata: {
-      title: "Contributions",
-      description:
-        "Naman Barkiya's open-source contributions and community involvement.",
-    },
-  },
+
   resume: {
-    title: "Resume",
-    description: "Naman Barkiya's resume.",
+    title: "Резюме",
+    description: "",
     metadata: {
-      title: "Resume",
-      description: "Naman Barkiya's resume.",
+      title: "Резюме",
+      description: "Резюме Мухина Романа.",
     },
   },
   experience: {
-    title: "Experience",
-    description: "Professional journey and career timeline.",
+    title: "Опыт",
+    description: "",
     metadata: {
-      title: "Experience",
+      title: "Опыт",
       description:
-        "Naman Barkiya's professional journey and experience timeline.",
+        "Опыт Мухина Романа",
     },
   },
 };
