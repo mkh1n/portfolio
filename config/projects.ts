@@ -35,8 +35,8 @@ export const Projects: ProjectInterface[] = [
     category: ["Web Dev", "Frontend", "UI/UX"],
     shortDescription:
       "Полнофункциональное веб-приложение для управления задачами с современным интерфейсом и интуитивным UX.",
-    websiteLink: "https://taskmanager.example.com",
-    githubLink: "https://github.com/username/task-management-app",
+    websiteLink: "https://task-tracker-zeta-ten-49.vercel.app/",
+    githubLink: "https://github.com/mkh1n/task-tracker",
     techStack: [
       "React",
       "Typescript",
@@ -86,8 +86,8 @@ export const Projects: ProjectInterface[] = [
     category: ["Web Dev", "Frontend", "UI/UX"],
     shortDescription:
       "Платформа для оценки и рецензирования фильмов с рекомендательной системой.",
-    websiteLink: "https://movierating.example.com",
-    githubLink: "https://github.com/username/movie-rating-app",
+    websiteLink: "",
+    githubLink: "",
     techStack: [
       "Next.js",
       "Typescript",
@@ -131,7 +131,7 @@ export const Projects: ProjectInterface[] = [
     category: ["Web Dev", "Frontend", "UI/UX"],
     shortDescription:
       "Модернизация и доработка существующего интернет-магазина для улучшения пользовательского опыта.",
-    websiteLink: "https://ecommerce-client.example.com",
+    websiteLink: "https://collectionchel.ru/",
     techStack: [
       "Vue.js",
       "JavaScript",
@@ -173,8 +173,8 @@ export const Projects: ProjectInterface[] = [
     category: ["Web Dev", "Frontend", "UI/UX"],
     shortDescription:
       "Адаптивный сайт-визитка для актера с портфолио и контактной информацией.",
-    websiteLink: "https://actor-card.example.com",
-    githubLink: "https://github.com/username/actor-visiting-card",
+    websiteLink: "https://mkh1n.github.io/ritasmirnova/",
+    githubLink: "https://github.com/mkh1n/ritasmirnova",
     techStack: ["HTML", "CSS", "JavaScript", "GSAP", "SASS"],
     startDate: new Date("2023-03-01"),
     endDate: new Date("2023-04-15"),
@@ -211,8 +211,8 @@ export const Projects: ProjectInterface[] = [
     category: ["Web Dev", "Frontend", "UI/UX"],
     shortDescription:
       "Адаптивный сайт для продвижения театрального спектакля с информацией о постановке.",
-    websiteLink: "https://theater-project.example.com",
-    githubLink: "https://github.com/username/theater-website",
+    websiteLink: "https://mkh1n.github.io/chelovecheck/",
+    githubLink: "https://github.com/mkh1n/chelovecheck",
     techStack: ["HTML", "CSS", "JavaScript", "Bootstrap", "jQuery"],
     startDate: new Date("2023-02-01"),
     endDate: new Date("2023-03-15"),
@@ -247,8 +247,8 @@ export const Projects: ProjectInterface[] = [
     category: ["Web Dev", "Frontend"],
     shortDescription:
       "Приложение для поиска и фильтрации пользователей с использованием внешнего API.",
-    websiteLink: "https://usersearch.example.com",
-    githubLink: "https://github.com/username/user-search-app",
+    websiteLink: "https://mkh1n.github.io/user-searcher/",
+    githubLink: "https://github.com/mkh1n/user-searcher",
     techStack: ["React", "JavaScript", "Axios", "Material-UI", "REST API"],
     startDate: new Date("2023-01-01"),
     endDate: new Date("2023-02-15"),
@@ -279,8 +279,8 @@ export const Projects: ProjectInterface[] = [
     category: ["Web Dev", "Frontend"],
     shortDescription:
       'Интерактивное веб-приложение "Магический шар" для получения случайных ответов на вопросы.',
-    websiteLink: "https://magicball.example.com",
-    githubLink: "https://github.com/username/magic-ball",
+    websiteLink: "https://mkh1n.github.io/magic-8-ball/",
+    githubLink: "https://github.com/mkh1n/magic-8-ball",
     techStack: ["HTML", "CSS", "JavaScript", "Canvas API"],
     startDate: new Date("2022-12-01"),
     endDate: new Date("2023-01-15"),
@@ -310,8 +310,8 @@ export const Projects: ProjectInterface[] = [
     category: ["Web Dev", "Full Stack"],
     shortDescription:
       "Веб-приложение для агрегации и чтения RSS-лент из различных источников.",
-    websiteLink: "https://rss-aggregator.example.com",
-    githubLink: "https://github.com/username/rss-aggregator",
+    websiteLink: "https://frontend-project-11-rust-one.vercel.app/",
+    githubLink: "https://github.com/mkh1n/frontend-project-11",
     techStack: ["Node.js", "Express", "MongoDB", "React", "RSS-parser"],
     startDate: new Date("2022-10-01"),
     endDate: new Date("2022-11-30"),
@@ -340,8 +340,8 @@ export const Projects: ProjectInterface[] = [
     category: ["Web Dev", "Full Stack"],
     shortDescription:
       "Веб-приложение для обмена сообщениями в реальном времени с комнатами и уведомлениями.",
-    websiteLink: "https://chat-app.example.com",
-    githubLink: "https://github.com/username/chat-app",
+    websiteLink: "https://frontend-project-12-806g.onrender.com/",
+    githubLink: "https://github.com/mkh1n/frontend-project-12",
     techStack: ["Socket.io", "Node.js", "React", "MongoDB", "JWT"],
     startDate: new Date("2022-08-01"),
     endDate: new Date("2022-09-30"),
@@ -375,8 +375,8 @@ export const Projects: ProjectInterface[] = [
     category: ["Web Dev", "Frontend"],
     shortDescription:
       "Приложение для записи и анализа снов с тегами, поиском и статистикой.",
-    websiteLink: "https://dream-diary.example.com",
-    githubLink: "https://github.com/username/dream-diary",
+    websiteLink: "",
+    githubLink: "",
     techStack: ["React", "TypeScript", "Firebase", "Chart.js", "Tailwind CSS"],
     startDate: new Date("2022-06-01"),
     endDate: new Date("2022-07-31"),
@@ -408,8 +408,8 @@ export const Projects: ProjectInterface[] = [
     category: ["Web Dev", "Frontend"],
     shortDescription:
       "Адаптивный лендинг для сервиса обмена валют с калькулятором и актуальными курсами.",
-    websiteLink: "https://currency-exchange.example.com",
-    githubLink: "https://github.com/username/currency-exchange",
+    websiteLink: "https://mkh1n.github.io/currency-exchanger/",
+    githubLink: "https://github.com/mkh1n/currency-exchanger",
     techStack: ["HTML", "CSS", "JavaScript", "Exchange Rate API", "Flexbox"],
     startDate: new Date("2022-04-01"),
     endDate: new Date("2022-05-15"),
@@ -443,8 +443,8 @@ export const Projects: ProjectInterface[] = [
     category: ["Web Dev", "Frontend"],
     shortDescription:
       "Адаптивный сайт для генерации QR-кодов с настройками и предпросмотром.",
-    websiteLink: "https://qr-generator.example.com",
-    githubLink: "https://github.com/username/qr-generator",
+    websiteLink: "https://mkh1n.github.io/quickqr/",
+    githubLink: "https://github.com/mkh1n/quickqr",
     techStack: ["HTML", "CSS", "JavaScript", "QRCode.js", "Local Storage"],
     startDate: new Date("2022-02-01"),
     endDate: new Date("2022-03-15"),
@@ -476,8 +476,8 @@ export const Projects: ProjectInterface[] = [
     category: ["Web Dev", "Frontend"],
     shortDescription:
       "Адаптивный сайт погоды с прогнозами, картами и детальной информацией.",
-    websiteLink: "https://weather-app.example.com",
-    githubLink: "https://github.com/username/weather-app",
+    websiteLink: "https://alexandrsperansky.github.io/WeatherReport/",
+    githubLink: "https://github.com/AlexandrSperansky/WeatherReport",
     techStack: ["HTML", "CSS", "JavaScript", "Weather API", "Geolocation API"],
     startDate: new Date("2022-01-01"),
     endDate: new Date("2022-02-15"),
