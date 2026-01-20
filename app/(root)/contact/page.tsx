@@ -21,7 +21,6 @@ export default function ContactPage() {
           <ContactForm />
         </div>
         <div className="flex-1 flex justify-center ">
-          <GithubRedirectCard />
         </div>
       </div>
     </PageContainer>
