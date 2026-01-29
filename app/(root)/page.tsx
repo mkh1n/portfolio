@@ -135,34 +135,7 @@ export default function IndexPage() {
           </AnimatedText>
         </div>
       </section>
-      <AnimatedSection
-        className="container space-y-6 bg-muted py-10"
-        id="skills"
-      >
-        <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
-          <AnimatedText
-            as="h2"
-            className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl"
-          >
-            {pagesConfig.skills.title}
-          </AnimatedText>
-          <AnimatedText
-            as="p"
-            delay={0.2}
-            className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7"
-          >
-            {pagesConfig.skills.description}
-          </AnimatedText>
-        </div>
-        <SkillsCard skills={featuredSkills} />
-        <AnimatedText delay={0.4} className="flex justify-center">
-          <Link href="/skills">
-            <Button variant={"outline"} className="rounded-xl">
-              <Icons.chevronDown className="mr-2 h-4 w-4" /> Все
-            </Button>
-          </Link>
-        </AnimatedText>
-      </AnimatedSection>
+      
       <AnimatedSection
         direction="right"
         className="container space-y-6 py-10 my-14"
@@ -206,6 +179,34 @@ export default function IndexPage() {
                         See all the relevant experiences.
                     </p>
                 </div> */}
+      </AnimatedSection>
+      <AnimatedSection
+        className="container space-y-6 bg-muted py-10"
+        id="skills"
+      >
+        <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
+          <AnimatedText
+            as="h2"
+            className="font-heading text-3xl leading-[1.1] sm:text-3xl md:text-6xl"
+          >
+            {pagesConfig.skills.title}
+          </AnimatedText>
+          <AnimatedText
+            as="p"
+            delay={0.2}
+            className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7"
+          >
+            {pagesConfig.skills.description}
+          </AnimatedText>
+        </div>
+        <SkillsCard skills={featuredSkills} />
+        <AnimatedText delay={0.4} className="flex justify-center">
+          <Link href="/skills">
+            <Button variant={"outline"} className="rounded-xl">
+              <Icons.chevronDown className="mr-2 h-4 w-4" /> Все
+            </Button>
+          </Link>
+        </AnimatedText>
       </AnimatedSection>
     
       <AnimatedSection
